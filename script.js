@@ -1,3 +1,4 @@
-const tombolSapa=documentgetElementByld('sapaButton');
-tombolSapa.addEventListener('dick'.function(){
-  alert('Have a nice dayy!');});
+const tombolSapa = document.getElementByld('sapaButton');
+tombolSapa.addEventListener('click',function(){
+  alert('Have a nice dayy!');
+});

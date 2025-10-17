@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WattzUp - Home Energy Analyzer</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>WattzUp</h1>
+      <p>Take charge of your electricity. Measure, manage, and save on home energy costs.</p>
+      <a href="#tool" class="cta-btn">Start Calculating</a>
+    </div>
+  </header>
+
+  <section id="tool" class="tool-section">
+    <div class="container">
+      <h2>🧮 Appliance Power Consumption Calculator</h2>
+      <form id="calc-form">
+        <label for="power">Power Rating (W):</label>
+        <input type="number" id="power" required>
+
+        <label for="hours">Hours Used Per Day:</label>
+        <input type="number" id="hours" required>
+
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" required>
+
+        <label for="rate">Electricity Rate ($/kWh):</label>
+        <input type="number" step="0.01" id="rate" required>
+
+        <button type="submit">Calculate Cost</button>
+      </form>
+
+      <div id="result" class="result-box"></div>
+    </div>
+  </section>
+
+  <section class="info-section">
+    <div class="container">
+      <h2>💡 Energy-Smart Appliance Recommendations</h2>
+      <p>Based on your home's energy profile, we suggest energy-efficient alternatives to help you reduce your electricity bill.</p>
+      <ul>
+        <li>🏠 Small Apartment: Low-wattage induction cooktops, compact inverter fridges</li>
+        <li>🏡 Medium Home: Energy Star-rated washing machines, smart thermostats</li>
+        <li>🏘️ Large Home: Solar-compatible systems, zoned HVAC setups</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 WattzUp. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js.WattzUp"></script>
+</body>
+</html>
